@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "DecoApp",
-    "slug": "DecoApp",
+    "slug": "decoapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/bg-body.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/bg-body.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rrrrky.decoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c26b9a8b-6475-44d6-8742-13227b2a40c5"
+      }
+    },
+    "owner": "rrrrky"
   }
 }
